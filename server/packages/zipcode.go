@@ -2,12 +2,16 @@ package packages
 
 import (
 	"encoding/json"
+	"errors"
 	"fmt"
 	"io"
 	"net/http"
 )
 
 func SearchZipCode(zipCode string) (*ObjectZipCode, error) {
+	if zipCode == "" {
+		return nil, errors.New("ZipCode is empty")
+	}
 	response, error := http.Get(fmt.Sprintf(Url, zipCode))
 	if error != nil {
 		return nil, error

@@ -1,0 +1,8 @@
+mode: set
+github.com/Msaorc/SearchZipCode/server/packages/zipcode.go:11.60,12.19 1 1
+github.com/Msaorc/SearchZipCode/server/packages/zipcode.go:15.2,16.18 2 1
+github.com/Msaorc/SearchZipCode/server/packages/zipcode.go:19.2,22.18 3 1
+github.com/Msaorc/SearchZipCode/server/packages/zipcode.go:26.2,28.28 3 1
+github.com/Msaorc/SearchZipCode/server/packages/zipcode.go:12.19,14.3 1 1
+github.com/Msaorc/SearchZipCode/server/packages/zipcode.go:16.18,18.3 1 0
+github.com/Msaorc/SearchZipCode/server/packages/zipcode.go:22.18,24.3 1 0
